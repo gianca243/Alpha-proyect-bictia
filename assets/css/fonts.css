@@ -1,0 +1,10 @@
+*{
+  --colorFondoNav : #bfbfbf;
+  --colorBoton : #40a9ff;
+  --colorBotonHover: #91d5ff;
+  --colorBotonCancelar: 
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto/Roboto-Regular.ttf");
+}
