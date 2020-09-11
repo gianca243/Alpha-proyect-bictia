@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto/Roboto-Regular.ttf");
+}
+
+*{
+    font-family: Roboto;
+}
+  
+.cardW{
+    width: 18rem;
+}
+
+.cardH{
+    height: 14rem;
+}
