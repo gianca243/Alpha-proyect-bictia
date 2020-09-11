@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(198, 253, 226);
+}
+
+.bord {
+  border-radius: 0.5rem;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.ingreso {
+  width: 18%;
+}
+
+.caracter {
+  font-size: 0.8em;
+}
+
+.some {
+  width: 18%;
+}
+
+.caja {
+  height: 260px;
+}
