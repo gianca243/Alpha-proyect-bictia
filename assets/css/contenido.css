@@ -1,0 +1,52 @@
+.bor{
+  border: 1px solid rgb(101, 112, 173);
+  border-radius: 5px;
+  padding: 5px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+    
+    grid-template-columns: repeat(8, 11.8%); 
+    grid-template-rows: repeat(28, 20%);
+  grid-template-areas:
+    'hora lunes martes miercoles jueves viernes sabados domingo'
+    'hora lunes martes miercoles jueves viernes sabados domingo'
+    'hora lunes martes miercoles jueves viernes sabados domingo'
+    
+  ;
+  grid-gap: 10px;
+  background-color: #40a9ff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.imgIcon{
+  height: 50px;
+  width: 50px;
+}
+.pad{
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+}
+.punto{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(33, 204, 33);
+  border-radius: 50%;
+}
