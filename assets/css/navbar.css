@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  background-color: rgb(198, 253, 226);
-}
-
 .bord {
   border-radius: 0.5rem;
   border-color: lightgray;
